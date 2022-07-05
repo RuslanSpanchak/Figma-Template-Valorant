@@ -1,0 +1,325 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrap {
+	width: 100%;
+	height: 95vh;
+
+	background-color: #ff5252;
+}
+
+/* HEADER */
+.header {
+	width: 100%;
+	height: 10vh;
+
+	background-color: #333;
+	box-shadow: 0 1px 5px #333;
+
+	display: flex;
+	align-items: center;
+}
+
+.logos {
+	display: flex;
+	align-items: center;
+
+	line-height: 12px;
+
+	cursor: pointer;
+}
+
+.riot_games {
+	color: #fff;
+	font-size: 14px;
+	font-family: monospace;
+
+	margin-left: 35px;
+	padding-right: 35px;
+
+	border-right: 1px solid #fff;
+}
+
+.riot {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.valorant_logo {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 900;
+	font-family: monospace;
+
+	padding-left: 35px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+
+	color: #fff;
+
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: monospace;
+}
+
+.nav_item {
+	margin-left: 30px;
+	padding: 10px;
+
+	cursor: pointer;
+	transition: .1s linear;
+
+	border-radius: 5px;
+}
+
+.nav_item:hover {
+	color: #333;
+	font-weight: 900;
+
+	background-color: #ff5252;
+	border-radius: 5px;
+}
+
+.account {
+	display: flex;
+	align-items: center;
+}
+
+.user {
+	color: #fff;
+	font-size: 12px;
+
+	padding: 10px;
+	margin-left: 5px;
+
+	cursor: pointer;
+	transition: .1s linear;
+
+	border-radius: 5px;
+
+	font-weight: 900;
+}
+
+.user:hover {
+	color: #333;
+
+	background-color: darkgrey;
+	border-radius: 5px;
+}
+
+/* SECTION */
+.section {
+	color: white;
+
+	display: flex;
+
+	background-image: url(img/background.png);
+	background-size: cover;
+}
+
+.agents_title {
+	font-size: 75px;
+	font-family: monospace;
+
+	margin-left: 50px;
+	margin-top: 25px;
+
+	line-height: 80px;
+}
+
+.agents {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-around;
+
+	margin-left: 25px;
+}
+
+.agents_item {
+	width: 250px;
+	height: 500px;
+
+	margin-top: 50px;
+
+	background-color: #333;
+	border-top-left-radius: 10px;
+
+	cursor: pointer;
+	transition: .1s linear;
+}
+
+.agents_item:hover {
+	background-color: whitesmoke;
+	border: 2px solid #333;
+	color: #333;
+}
+
+.country {
+	color: #ff5252;
+	font-size: 24px;
+	font-weight: 900;
+	font-family: monospace;
+
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.agents_name {
+	font-size: 72px;
+	margin-left: -70px;
+}
+
+.agents_name_different {
+	font-size: 72px;
+	margin-left: -40px;
+}
+
+.agents_footer {
+	width: 250px;
+	height: 8vh;
+
+	border: 1px solid white;
+	background-color: #333;
+
+	margin-top: 325px;
+	margin-left: 25px;
+	padding-right: 25px;
+
+	/*z-index: 0;*/
+
+	cursor: pointer;
+	transition: .1s linear;
+}
+
+.agents_footer:hover {
+	background-color: whitesmoke;
+	border: 2px solid #333;
+}
+
+/* FOOTER */
+.footer {
+	width: 100%;
+	height: 5vh;
+
+	background-color: whitesmoke;
+	box-shadow: 0 -1px 5px #333;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer_item {
+	width: 450px;
+	height: 125px;
+
+	background-color: white;
+	border: 2px solid #333;
+	border-top-left-radius: 10px;
+
+	/*position: relative;
+	bottom: 100px;*/
+	margin-top: -100px;
+
+	display: flex;
+
+	cursor: pointer;
+	transition: 0.1s linear;
+}
+
+.footer_item:hover {
+	background-color: #333;
+	border: 2px solid whitesmoke;
+	border-bottom: 2px solid #333;
+}
+
+.footer_item_last {
+	width: 125px;
+	height: 125px;
+
+	background-color: white;
+	border: 2px solid #333;
+	border-top-left-radius: 10px;
+
+	/*position: relative;
+	bottom: 100px;*/
+	margin-top: -100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.super_strenght {
+	font-size: 40px;
+	font-family: monospace;
+	color: darkgrey;
+
+
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.strenght {
+	font-size: 20px;
+	font-family: monospace;
+	font-weight: 900;
+	color: black;
+
+	margin-left: 20px;
+}
+
+.strenght_text {
+	font-size: 14px;
+	color: grey;
+
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.square_1 {
+	width: 110px;
+	height: 90px;
+
+	background-color: #ff5252;
+
+	margin-top: 31px;
+	margin-left: 25px;
+}
+
+.square_2 {
+	width: 110px;
+	height: 90px;
+
+	background-color: #ff5252;
+
+	margin-top: 31px;
+	margin-left: 70px;
+}
+
+.square_3 {
+	width: 110px;
+	height: 90px;
+
+	background-color: #ff5252;
+
+	margin-top: 31px;
+	margin-left: 40px;
+}
+
+.akali {
+	width: 35px;
+	height: 35px;
+
+	border-radius: 50%;
+	margin-left: 325px;
+}
+
+
